@@ -4,6 +4,8 @@ DeepSeek Harness（DSH）桌面端的**自定义皮肤插件**：给整个应用
 
 > 本插件从 [DeepSeek-Harness-NB](https://github.com/Lzhimie/DeepSeek-Harness-NB) 的社区插件模块（`dsh-community-plugins`）中提取"自定义皮肤"功能，剥离社区插件中心依赖后独立发布，MIT 许可。
 
+![Uploading image.png…]()
+
 ## 功能
 
 - **背景图片 / 背景视频**：支持 URL 或本地文件（本地上传持久化，重启有效）；封面 / 适应 / 平铺三种显示模式；视频支持音量与静音。
