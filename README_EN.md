@@ -19,7 +19,21 @@ A **custom skin plugin** for the DeepSeek Harness (DSH) desktop app: global wall
 
 **Option A — Community plugin center (recommended):** search `dsh-skin-master` in the DSH desktop community plugin center, install, restart the app.
 
-**Option B — CLI / manual:**
+**Option B — One-line prompt to the built-in AI (zero terminal, recommended for beginners):** copy the whole block below (use the copy button at the block's top-right) and send it to the AI inside DeepSeek Harness — it will install the plugin for you:
+
+```text
+Please install the DeepSeek Harness skin plugin dsh-skin-master for me:
+1. Run `dsh plugin --profile desktop add "github:Lzhimie/dsh-skin-master"`. If the dsh command is not found, use the full path to dsh.cmd under the Harness install dir (resources/runtime/cli/bin/). If the download fails, configure a system proxy and retry.
+2. Edit ~/.dsh/profiles/desktop/cordis.patch.yml and append the following at the end:
+   - insert:
+       - id: skin-master
+         name: dsh-skin-master
+3. When done, remind me to restart DeepSeek Harness.
+```
+
+> The package is pulled from GitHub, so github.com must be reachable (use a proxy if needed). After restart, click the palette icon at the bottom of the sidebar to open "Skin Master".
+
+**Option C — CLI / manual:**
 
 ```bash
 dsh plugin --profile web add dsh-skin-master

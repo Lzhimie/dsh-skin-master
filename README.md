@@ -23,7 +23,23 @@ DeepSeek Harness（DSH）桌面端的**自定义皮肤插件**：给整个应用
 
 在 DeepSeek Harness 桌面端的社区插件中心搜索 `dsh-skin-master`，一键安装后重启客户端即可。
 
-### 方式二：命令行 / 手动
+### 方式二：发给 AI 一句话自动安装（零命令行，推荐新手）
+
+复制下面整段话（点代码块右上角的复制按钮），粘贴发给 DeepSeek Harness 里的 AI，它就会帮你把插件装好：
+
+```text
+请帮我安装 DeepSeek Harness 的皮肤插件 dsh-skin-master：
+1. 运行 `dsh plugin --profile desktop add "github:Lzhimie/dsh-skin-master"`。如果提示找不到 dsh 命令，到 DeepSeek Harness 安装目录的 resources/runtime/cli/bin/ 下用 dsh.cmd 的完整路径执行；如果下载失败，请配置系统代理后重试。
+2. 编辑 ~/.dsh/profiles/desktop/cordis.patch.yml，在文件末尾追加以下内容：
+   - insert:
+       - id: skin-master
+         name: dsh-skin-master
+3. 全部完成后提醒我重启 DeepSeek Harness 生效。
+```
+
+> 安装包从 GitHub 拉取，需网络能访问 github.com（必要时开代理）。重启后在侧边栏底部点击调色盘图标打开「皮肤大师」。
+
+### 方式三：命令行 / 手动
 
 ```bash
 # 使用 DSH 命令行安装
