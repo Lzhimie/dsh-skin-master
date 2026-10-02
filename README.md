@@ -4,8 +4,6 @@ DeepSeek Harness（DSH）桌面端的**自定义皮肤插件**：给整个应用
 
 > 本插件从 [DeepSeek-Harness-NB](https://github.com/Lzhimie/DeepSeek-Harness-NB) 的社区插件模块（`dsh-community-plugins`）中提取"自定义皮肤"功能，剥离社区插件中心依赖后独立发布，MIT 许可。
 
-![Uploading image.png…]()
-
 ## 功能
 
 - **背景图片 / 背景视频**：支持 URL 或本地文件（本地上传持久化，重启有效）；封面 / 适应 / 平铺三种显示模式；视频支持音量与静音。
@@ -16,6 +14,12 @@ DeepSeek Harness（DSH）桌面端的**自定义皮肤插件**：给整个应用
 - **我发送的消息**：气泡背景色、文字颜色、透明度、模糊度。
 - **AI 回复文本**：自定义颜色。
 - 所有设置实时生效，并持久化到宿主磁盘，重启应用后自动恢复。
+
+## 效果参考
+
+![皮肤大师效果参考图](docs/screenshot.jpg)
+
+*参考图：DeepSeek Harness 桌面端 — 视频壁纸 + 毛玻璃模糊 + 输入框背景的实际效果。*
 
 ## 安装
 
