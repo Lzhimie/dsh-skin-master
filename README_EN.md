@@ -22,6 +22,10 @@ A **custom skin plugin** for the DeepSeek Harness (DSH) desktop app: global wall
 
 *Reference: DeepSeek Harness desktop — video wallpaper + frosted-glass blur + chat input background, in action.*
 
+![Chat typography reference screenshot](docs/screenshot-typography.png)
+
+*Reference: chat typography — bold colored AI replies, user bubble color + input background, in action.*
+
 ## Install
 
 **Option A — Community plugin center (recommended):** search `dsh-skin-master` in the DSH desktop community plugin center, install, restart the app.
