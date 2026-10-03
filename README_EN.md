@@ -13,6 +13,7 @@ A **custom skin plugin** for the DeepSeek Harness (DSH) desktop app: global wall
 - **Popover background** — opacity / blur / grain for command menus, pickers, overlays.
 - **My messages** — bubble color, text color, opacity, blur.
 - **AI reply text** — custom color.
+- **Chat typography** — bold and text shadow for AI replies / my messages, each toggled separately; bold weight (400–900) and shadow strength (0–100%) sliders with a live preview.
 - All settings apply live and persist on disk across restarts.
 
 ## Screenshot
